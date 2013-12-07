@@ -95,4 +95,68 @@ ul.nav a {
 	border: 8px solid #FAF3BC;
 	margin: 0 0 20px 0;
 }
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 480px) {
+	.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	width: 100%;
+}
+#logo img {
+	max-width: 100%;
+}
+#nav ul {
+	margin: 5% 0;
+}
+
+#nav ul li a {
+	-webkit-user-select: none;
+	font-size: 0.750em;
+}
+
+#nav ul li {
+	float: left;
+	margin: 5% 0;
+	}
+	#nav ul  li.about {
+		width: 20%;
+		text-align: left;
+	}
+	#nav ul  li.pricing {
+		width: 55%;
+		text-align: center;
+	}
+	#nav ul  li.locations {
+		width: 25%;
+		text-align: right;
+	}
+	#nav ul  li.contact {
+		width: 100%;
+		margin: 0;
+		font-size: 1em;
+	}
+#intro, #about {
+	display: none;
+}
+#featured-cupcake, #new-cupcakes {
+	margin: 5% 0;
+}
+
+}
+
+
+@media screen and (min-width: 1000px) {
+
 }
