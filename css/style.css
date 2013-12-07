@@ -99,7 +99,7 @@ ul.nav a {
 
 /*Media Queries*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 650px) {
 	.grid_1,
 .grid_2,
 .grid_3,
@@ -134,11 +134,11 @@ ul.nav a {
 		width: 20%;
 		text-align: left;
 	}
-	#nav ul  li.pricing {
+	#nav ul  li.things {
 		width: 55%;
 		text-align: center;
 	}
-	#nav ul  li.locations {
+	#nav ul  li.here {
 		width: 25%;
 		text-align: right;
 	}
@@ -157,6 +157,53 @@ ul.nav a {
 }
 
 
-@media screen and (min-width: 1000px) {
+@media screen and (max-width: 1024px) {
+
+
+#intro {
+	width: 100%; 
+}
+#intro-img {
+	display: none;
+}
+#intro h1 {
+	margin:  0 0 5% 0;
+}
+#logo {
+	width: 100%;
+	text-align: center;
+}
+
+#logo object {
+	max-width:  55%;
+}
+#nav {
+	width: 100%;
+}
+#nav ul {
+	margin: 0;
+}
+
+#nav ul li {
+	float: left;
+	margin: 5% 0 0 0;
+	}
+	#nav ul li.about {
+		width: 15%;
+	}
+	#nav ul li.things {
+		width: 35%;
+	}
+	#nav ul li.here {
+		width: 25%;
+	}
+	#nav ul li.contact {
+		width: 25%;
+		margin: 5% 0 2% 0;
+	}
+
 
 }
+
+
+
